@@ -117,6 +117,7 @@ print "Build model successfully!"
 
 # get data
 data = load_mnist("./data/train-images.idx3-ubyte", "./data/train-labels.idx1-ubyte")
+print data[0][0]
 print "Get data successful!"
 
 # In[8]:
